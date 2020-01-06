@@ -1,0 +1,46 @@
+body {
+    background-image: url("img/wall.jpg");
+}
+
+.content-box {
+    margin-top: 125px
+}
+
+.content-box h2 {
+    text-align: center;
+}
+
+.content-box p {
+    text-align: justify;
+}
+
+.image-box {
+    float: left;
+}
+
+#read-more {
+    text-align: justify;
+    overflow: hidden;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 5px 30px gainsboro;
+    z-index: 9999;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+#main-area.active {
+    filter: blur(20px);
+    pointer-events: none;
+    user-select: none;
+}
+
+#read-more.active {
+    top: 50%;
+    visibility: visible;
+    opacity: 1;
+    transition: 0.5;
+}
