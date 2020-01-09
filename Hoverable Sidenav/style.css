@@ -1,0 +1,39 @@
+#hoverable-nav  a {
+    position: fixed;
+    text-decoration: none;
+    width: 120px;
+    right: -105px;
+    transition: 0.3s;
+    font-size: 20px;
+    padding: 10px;
+    color: #fff;
+}
+
+#hoverable-nav i {
+    width: 20px;
+    margin-right: 7px;
+}
+
+#hoverable-nav a:hover {
+    right: 0;
+}
+
+#btn-github {
+    top: 60px;
+    background-color: #24292E;
+}
+
+#btn-youtube {
+    top: 120px;
+    background-color: #FF0000;
+}
+
+#btn-facebook {
+    top: 180px;
+    background-color: #385898;
+}
+
+#btn-twitter {
+    top: 240px;
+    background-color: #1DA1F2;
+}
