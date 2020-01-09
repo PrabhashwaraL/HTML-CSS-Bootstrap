@@ -1,0 +1,44 @@
+body {
+    height: 1500px;
+}
+
+.static-position {
+    /*HTML default positioning*/
+    position: static;
+    text-align: center;
+    padding: 20px;
+    background-color: #dedede;
+}
+
+.sticky-position {
+    position: sticky;
+    top: 0;
+    background-color: #dedede;
+    z-index: 9999;
+}
+
+.relative-position {
+    position: relative;
+    width: 50%;
+    height: 200px;
+    padding: 20px;
+    top: 50px;
+    left: 40px;
+    text-align: center;
+    background-color: #dedede;
+}
+
+.absolute-position {
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+    background-color: #929ba1;
+}
+
+.fixed-position {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    text-align: center;
+    background-color: #dedede;
+}
